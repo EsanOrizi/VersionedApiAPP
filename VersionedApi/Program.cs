@@ -20,7 +20,7 @@ builder.Services.AddSwaggerGen(opts =>
 
     opts.SwaggerDoc("v1", new OpenApiInfo()
     {
-        Version = "v1",
+        Version = "v1 Deprecated" ,
         Title = title,
         Description = description,
         TermsOfService = terms,
